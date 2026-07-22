@@ -40,7 +40,7 @@ class BankAccount(ABC):
         pass
 class SavingAccount(BankAccount):
     def interestcal(self):
-        return self.__balance*0.05"""
+        return self.__balance*0.05
 #POLYMOPHISM
 class Animal:
     def sound(self):
@@ -52,7 +52,7 @@ class cat(Animal):
     def sound(self):
         print("meow")
 a=cat()
-a.sound()
+a.sound()"""
   
 
 
